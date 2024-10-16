@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ferramentas-estudo"
+version = "0.1.0"
+description = ""
+authors = ["Cristian C dos Santos <perestra.ccds@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.2.38"
+langchain = "^0.3.3"
+youtube-transcript-api = "^0.6.2"
+ipykernel = "^6.29.5"
+langchain-openai = "^0.2.2"
+langchain-community = "^0.3.2"
+pytube = "^15.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
